@@ -3,7 +3,7 @@
 }
 
 html {
-	height: 90%;
+	height: 100%;
 }
 
 body {
@@ -11,13 +11,11 @@ body {
 	height: 100%;
 	@include background-gradient(#5A3BB4, #CA51DF);
 	background-repeat: no-repeat;
+	@include preserve-three-dimension()
 }
 
 .page-content {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	// height: 700px;
+	@include vertical-align();
 	text-align: center;
 	// min-height: 800px;
 }
@@ -26,5 +24,6 @@ body {
 	// margin-top: 20%;
 	// margin-bottom: 20%;
 	color: white;
-	font-size: 50px;
+	font-size: $size-plus-5;
+	font-weight: 100;
 }

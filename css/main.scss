@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -28,7 +28,15 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$size-plus-1:			1.33333334em;
+$size-plus-2:			1.777777796em;
+$size-plus-3:			2.370370406em;
+$size-plus-4:			3.16049389em;
+$size-plus-5:			4.213991875em;
+$size-plus-6:			5.618655861em;
+$size-plus-7:			7.491541186em;
+$size-plus-8:			9.988721631em;
+$size-plus-9:			13.31829557em;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

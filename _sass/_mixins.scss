@@ -7,3 +7,17 @@
   background-image: linear-gradient($first-color, $second-color); /* Standard syntax */
   // background-attachment: fixed;
 }
+
+@mixin preserve-three-dimension() {
+	-webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
