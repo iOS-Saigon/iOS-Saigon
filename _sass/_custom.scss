@@ -1,0 +1,30 @@
+* {
+	max-width: 100%;
+}
+
+html {
+	height: 90%;
+}
+
+body {
+	font-size:16px;
+	height: 100%;
+	@include background-gradient(#5A3BB4, #CA51DF);
+	background-repeat: no-repeat;
+}
+
+.page-content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	// height: 700px;
+	text-align: center;
+	// min-height: 800px;
+}
+
+.title {
+	// margin-top: 20%;
+	// margin-bottom: 20%;
+	color: white;
+	font-size: 50px;
+}
